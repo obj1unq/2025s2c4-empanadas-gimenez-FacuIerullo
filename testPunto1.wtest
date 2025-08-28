@@ -5,8 +5,8 @@ test "punto1: Planteo inicial" {
   baigorria.ventaDeEmpanadas(500)
   galvan.cambioDeSueldo(20000)
   baigorria.ventaDeEmpanadas(300)
-  assert.equals(12000, baigorria.sueldoActual())
-  assert.equals(20000, galvan.sueldoActual())
+  assert.equals(12000, baigorria.sueldoACobrar())
+  assert.equals(20000, galvan.sueldoACobrar())
   
   gimenez.pagarSueldo(baigorria)
   gimenez.pagarSueldo(galvan)
